@@ -10,7 +10,7 @@ namespace Practica2TN.Controllers
 
         [HttpGet()]
 
-        public List<string> Get([FromQuery] string persona1, [FromQuery] string persona2,  [FromQuery] string persona3)
+        public List<string> TraerPersonas([FromQuery] string persona1, [FromQuery] string persona2,  [FromQuery] string persona3)
         {
             List<Persona> lista = [];
 
